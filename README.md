@@ -10,8 +10,8 @@ https://genbench.org/workshop/
 To address the need for new NLP emotion detection benchmarks, we selected several recent diverse emotion-annotated corpora, combined them into a unified framework by mapping into a set of common emotions and performed baseline experiments for emotion detection with the unified framework.
 
 ## Contents:
-The “data” folder contains a list of the 11 datasets we used in the paper. For each corpus, we provide information about the paper, description of the data, and URLs. Since we do not own the datasets, we link to the respective URLs to download each one. We also provide information about how we transformed the data for the experiments in our paper.
-The “code” folder has notebooks to a) build the unified framework with the common emotion labels from all datasets, and b) run the classification experiments by fine-tuning on the unified train set and then testing the model on each test set. 
+- The “data” folder contains a list of the 11 datasets we used in the paper. For each corpus, we provide information about the paper, description of the data, and URLs. Since we do not own the datasets, we link to the respective URLs to download each one. We also provide information about how we transformed the data for the experiments in our paper.
+- The “code” folder has notebooks to a) build the unified framework with the common emotion labels from all datasets, and b) run the classification experiments by fine-tuning on the unified train set and then testing the model on each test set. 
 
 ## Citation:
 Please cite our paper if you use our work:
