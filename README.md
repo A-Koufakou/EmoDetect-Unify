@@ -16,11 +16,14 @@ To address the need for new NLP emotion detection benchmarks, we selected severa
 ## Citation:
 Please cite our paper if you use our work:
 ```
-@inproceedings{koufakou2024emobench,
+@inproceedings{koufakou-etal-2024-towards,
  title={Towards a new Benchmark for Emotion Detection in {NLP}: A Unifying Framework of Recent Corpora},
  author={Koufakou, Anna and Nieves, Elijah and Peller, John},
- booktitle={Proceedings of the 2nd GenBench workshop on generalisation (benchmarking) in NLP},
- year={2024}
+ booktitle = "Proceedings of the 2nd GenBench Workshop on Generalisation (Benchmarking) in NLP",
+ year={2024},
+ publisher = "Association for Computational Linguistics",
+ url = "https://aclanthology.org/2024.genbench-1.13",
+ pages = "196--206"
 }
 ```
 Contact us with any questions: _akoufakou [at] fgcu [dot] edu_
