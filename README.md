@@ -18,7 +18,15 @@ of generalization research in nlp. Nature Machine Intelligence, 5(10):1161–117
 - The “code” folder has notebooks to a) build the unified framework with the common emotion labels from all datasets, and b) run the classification experiments by fine-tuning on the unified train set and then testing the model on each test set. 
 
 ## Challenges and Limitations:
-The unified framework combines datasets from diffferent sources and formats (e.g. social media vs self-written essays) and, more importantly, perspectives and annotation processes. For example, one dataset might include self-annotated statements by the speakers about their feelings (either intentionally labeled or inferred from hashtags or Facebook reactions), while another might involve annotations by others assessing the apparent emotions of the speaker. Secondly, emotions may be defined differently in different annotation schemas: for example, _trust_ may be defined as _liking_ and _feeling safe_ in one schema, and as _sincerity_ and _moral correctness_ in another. 
+Even though our work involved significant effort to understand the characteristics and formats of the original data, and to transform the data into a unified corpus, there are several limitations. 
+
+This work included datasets presented since 2018, all in English and all represented as single-labeled, with basic emotion labels. The dataset selection
+for benchmarking should be more expansive, not only in terms of languages and emotion labeling
+but also regarding data sources and topics. In the realm of emotion recognition using NLP, the linguistic and cultural diversity of emotions highlights
+the need for more inclusive and representative datasets. Furthermore, additional experimentation,
+especially cross-corpus, is essential to establish the unified framework as a valuable benchmark. We discuss these issues in the paper linked above.
+
+The unified framework combined datasets from diffferent sources and formats (e.g. social media vs self-written essays) and, more importantly, perspectives and annotation processes. For example, one dataset might include self-annotated statements by the speakers about their feelings (either intentionally labeled or inferred from hashtags or Facebook reactions), while another might involve annotations by others assessing the apparent emotions of the speaker. Secondly, emotions may be defined differently in different annotation schemas: for example, _trust_ may be defined as _liking_ and _feeling safe_ in one schema, and as _sincerity_ and _moral correctness_ in another. 
 
 It is important for NLP researchers to carefully consider these nuances and the suitability of such unified data for any specific application. Further, conclusions drawn about emotions from the unified data have to be carefully weighed to see if using such disparate data is reasonable.
 
